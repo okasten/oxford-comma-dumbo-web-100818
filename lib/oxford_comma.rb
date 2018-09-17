@@ -2,7 +2,7 @@ def oxford_comma(array)
   string = array.shift
   last_word = array.pop
   string << array.join(", ")
-  string << " and #{last_word}"
+  string << ", and #{last_word}"
 
     
   
