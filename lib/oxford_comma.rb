@@ -1,5 +1,8 @@
 def oxford_comma(array)
-  
+  i = 1
+  string = array[0]
+  while i < array.length 
+    
   
 #  i = 0
  # string = ""
