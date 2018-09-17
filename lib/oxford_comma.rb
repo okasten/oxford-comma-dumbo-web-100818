@@ -1,7 +1,9 @@
 def oxford_comma(array)
-  i = 1
-  string = array[0]
-  while i < array.length 
+  string = array.shift
+  last_word = array.pop
+  string << array.join(", ")
+  string << "and #{last_word}"
+
     
   
 #  i = 0
